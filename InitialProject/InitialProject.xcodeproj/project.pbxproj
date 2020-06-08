@@ -24,6 +24,7 @@
 		9D25848323ABF46F007A6926 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25848223ABF46F007A6926 /* APIConstants.swift */; };
 		9D25848523ABFD08007A6926 /* NetworrResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25848423ABFD08007A6926 /* NetworrResult.swift */; };
 		9D25848723ABFD79007A6926 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25848623ABFD79007A6926 /* LoginService.swift */; };
+		9DA99C27248E95C00091D63E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA99C26248E95C00091D63E /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		9D25848223ABF46F007A6926 /* APIConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
 		9D25848423ABFD08007A6926 /* NetworrResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworrResult.swift; sourceTree = "<group>"; };
 		9D25848623ABFD79007A6926 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		9DA99C26248E95C00091D63E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				9D25847B23ABE78D007A6926 /* UITabBar+Extensions.swift */,
 				9D25847D23ABE85D007A6926 /* UIButton+Extensions.swift */,
 				9D25848023ABECE9007A6926 /* NSNotificationName+Extensions.swift */,
+				9DA99C26248E95C00091D63E /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 				9D25847423ABE634007A6926 /* UIView+Extensions.swift in Sources */,
 				9D25845623ABE3EF007A6926 /* SceneDelegate.swift in Sources */,
 				9D25848323ABF46F007A6926 /* APIConstants.swift in Sources */,
+				9DA99C27248E95C00091D63E /* String+Extensions.swift in Sources */,
 				9D25847623ABE67F007A6926 /* UIViewController+Extensions.swift in Sources */,
 				9D25847223ABE5F3007A6926 /* UIColor+Extensions.swift in Sources */,
 				9D25847C23ABE78D007A6926 /* UITabBar+Extensions.swift in Sources */,
