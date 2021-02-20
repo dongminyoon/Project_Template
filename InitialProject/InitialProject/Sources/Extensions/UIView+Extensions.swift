@@ -28,7 +28,7 @@ extension UIView {
     func makeShadow(opacity: Float, radius: CGFloat) {
         self.layer.shadowColor = UIColor.black.cgColor
         self.layer.shadowOffset = .zero
-        
+    
         // 지정한 Shadow 투명도
         self.layer.shadowOpacity = opacity
         // 지정한 Shadow Radius

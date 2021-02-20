@@ -10,7 +10,6 @@ import Foundation
 import UIKit
 
 extension UIButton {
-    
     // Button 상태에 따라 Background 지정
     func setBackgroundColor(_ color: UIColor, for state: UIControl.State) {
         UIGraphicsBeginImageContext(CGSize(width: 1.0, height: 1.0))
