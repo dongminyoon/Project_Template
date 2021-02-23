@@ -13,6 +13,18 @@ import UIKit
 
 extension UIView {
     
+    // Nib이 Bundle에 있는지 확인
+    static var isExistNibFile: Bool {
+        let identifier = String(describing: self)
+        return Bundle.main.path(forResource: identifier, ofType: "nib") != nil
+    }
+    
+    // 타입으로부터 Nib 파일 불러오기
+    static func fromNib<T: UIView>() -> T? {
+        guard let nib = Bundle.main.loadNibNamed(String(describing: T.self), owner: nil, options: nil) else { return nil }
+        return nib.first as? T
+    }
+    
     // View 모서리 둥글게
     func makeCornerRounded(radius: CGFloat?) {
         if let radius = radius {
