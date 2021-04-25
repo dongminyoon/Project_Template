@@ -25,15 +25,15 @@ extension UIView {
         return nib.first as? T
     }
     
-    // View 모서리 둥글게
-    func makeCornerRounded(radius: CGFloat?) {
-        if let radius = radius {
-            // 지정한 Radius로 둥글게
-            self.layer.cornerRadius = radius
-        } else {
-            // 지정하지 않은 경우 원
-            self.layer.cornerRadius = self.frame.width / 2
-        }
+    // 부분적으로 Corner 주기
+    func makeRoundCorner(directions: UIRectCorner = .allCorners, radius: CGFloat) {
+        let path = UIBezierPath(roundedRect: self.bounds,
+                                byRoundingCorners: directions,
+                                cornerRadii: CGSize(width: radius, height: radius))
+        
+        let mask        = CAShapeLayer()
+        mask.path       = path.cgPath
+        self.layer.mask = mask
     }
     
     // View Shadow 지정

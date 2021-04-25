@@ -25,6 +25,8 @@
 		9D25848523ABFD08007A6926 /* NetworrResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25848423ABFD08007A6926 /* NetworrResult.swift */; };
 		9D25848723ABFD79007A6926 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D25848623ABFD79007A6926 /* LoginService.swift */; };
 		9DA99C27248E95C00091D63E /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DA99C26248E95C00091D63E /* String+Extensions.swift */; };
+		CE574DDD2635A7570046D20A /* Array+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE574DDC2635A7570046D20A /* Array+Extension.swift */; };
+		CE574DE02635A7BE0046D20A /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE574DDF2635A7BE0046D20A /* Date+Extensions.swift */; };
 		CE9D26F125E4C6080095FA02 /* UITableView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D26F025E4C6080095FA02 /* UITableView+Extensions.swift */; };
 		CE9D26F525E4C9BC0095FA02 /* UICollectionView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE9D26F425E4C9BC0095FA02 /* UICollectionView+Extensions.swift */; };
 /* End PBXBuildFile section */
@@ -50,6 +52,8 @@
 		9D25848423ABFD08007A6926 /* NetworrResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworrResult.swift; sourceTree = "<group>"; };
 		9D25848623ABFD79007A6926 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 		9DA99C26248E95C00091D63E /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		CE574DDC2635A7570046D20A /* Array+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Extension.swift"; sourceTree = "<group>"; };
+		CE574DDF2635A7BE0046D20A /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		CE9D26F025E4C6080095FA02 /* UITableView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITableView+Extensions.swift"; sourceTree = "<group>"; };
 		CE9D26F425E4C9BC0095FA02 /* UICollectionView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -185,6 +189,8 @@
 				9DA99C26248E95C00091D63E /* String+Extensions.swift */,
 				CE9D26F025E4C6080095FA02 /* UITableView+Extensions.swift */,
 				CE9D26F425E4C9BC0095FA02 /* UICollectionView+Extensions.swift */,
+				CE574DDC2635A7570046D20A /* Array+Extension.swift */,
+				CE574DDF2635A7BE0046D20A /* Date+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -263,11 +269,13 @@
 				9D25845823ABE3EF007A6926 /* ViewController.swift in Sources */,
 				9D25847823ABE6E9007A6926 /* UIImageView+Extensions.swift in Sources */,
 				9D25848523ABFD08007A6926 /* NetworrResult.swift in Sources */,
+				CE574DDD2635A7570046D20A /* Array+Extension.swift in Sources */,
 				CE9D26F525E4C9BC0095FA02 /* UICollectionView+Extensions.swift in Sources */,
 				9D25848123ABECE9007A6926 /* NSNotificationName+Extensions.swift in Sources */,
 				9D25847A23ABE72B007A6926 /* UINavigationBar+Extensions.swift in Sources */,
 				9D25847E23ABE85D007A6926 /* UIButton+Extensions.swift in Sources */,
 				9D25845423ABE3EF007A6926 /* AppDelegate.swift in Sources */,
+				CE574DE02635A7BE0046D20A /* Date+Extensions.swift in Sources */,
 				9D25847423ABE634007A6926 /* UIView+Extensions.swift in Sources */,
 				9D25845623ABE3EF007A6926 /* SceneDelegate.swift in Sources */,
 				9D25848323ABF46F007A6926 /* APIConstants.swift in Sources */,
